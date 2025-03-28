@@ -1,12 +1,12 @@
 import "./App.css";
-import Toggle from "./components/state/Toggle";
-import YoutubeList from "./components/youtube/YoutubeList";
+import Counter from "./components/counter/Counter";
+import Game from "./components/tictactoe/Game";
+import Toggle from "./components/toggle/Toggle";
 
 function App() {
-  const name = "La Dai Loc";
   return (
     <div>
-      <Toggle></Toggle>
+      <Game></Game>
     </div>
   );
 }
