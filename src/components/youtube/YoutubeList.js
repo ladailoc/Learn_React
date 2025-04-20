@@ -3,7 +3,7 @@ import { YoutubeData } from "../../data";
 import YoutubeItem from "./YoutubeItem";
 
 const YoutubeList = (props) => {
-  console.log(props.children);
+  console.log(props);
   return (
     <div className="youtube-list">
       {props.children}
